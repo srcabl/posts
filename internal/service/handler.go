@@ -17,7 +17,7 @@ func New() (*Handler, error) {
 	return &Handler{}, nil
 }
 
-// Healthcheck is the base healthcheck for the service
+// HealthCheck is the base healthcheck for the service
 func (h *Handler) HealthCheck(ctx context.Context, empty *emptypb.Empty) (*emptypb.Empty, error) {
 
 	return nil, nil
