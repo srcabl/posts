@@ -8,6 +8,7 @@ import (
 	"google.golang.org/protobuf/types/known/emptypb"
 )
 
+// Handler implements the posts service
 type Handler struct {
 	pb.UnimplementedPostsServiceServer
 }
